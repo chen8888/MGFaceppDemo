@@ -77,9 +77,9 @@ public class PointsMatrix {
 	// vertexBuffer.put(squareCoords);
 	// vertexBuffer.position(0);
 	// }
-	private boolean isFaceCompare;
+	private boolean isFaceCompare = false;
 
-	public boolean isShowFaceRect;
+	public boolean isShowFaceRect = false;
 
 	// 人脸矩形
 	public Rect rect;
